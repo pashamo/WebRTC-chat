@@ -2,11 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>WebSocket DEMO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WebRTC Chat</title>
+        <script src="https://cdn.socket.io/4.2.0/socket.io.min.js" integrity="sha384-PiBR5S00EtOj2Lto9Uu81cmoyZqR57XcOna1oAuVuIEjzj0wpqDVfD0JA9eXlRsj" crossorigin="anonymous"></script>
+        <script defer src="index.js"></script>
     </head>
     <body>
-        <button id="buhhum">Click me</button>
         <ul id="messages"></ul>
-        <script src="index.js"></script>
+        <input type="text" placeholder="message" id="message-input" />
+        <button id="buhhum">Send</button>
+
+        <!-- <button id="buhhum">Click me</button>
+        <ul id="messages"></ul>
+        <script src="index.js"></script> -->
     </body>
 </html>
